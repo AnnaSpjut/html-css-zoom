@@ -83,11 +83,15 @@ footer i:hover{
 
 .end{
   height: 100%;
-  background-color: rgb(128, 128, 128);
+  background-color: rgb(17, 16, 16);
   display: flex;
 
 }
 .end button{
   padding: 10px 30px;
   color: red;
+}
+
+.flex.active{
+  color: green;
 }
