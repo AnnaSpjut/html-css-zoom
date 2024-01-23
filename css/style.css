@@ -9,6 +9,10 @@ img{
   object-fit: cover;
 }
 
+.flex{
+  display: flex;
+}
+
 main{
   background-color: black;
   height: calc(100vh - 100px);
@@ -41,6 +45,49 @@ main{
 }
 
 footer{
-  background-color: yellow;
+  background-color: #222222;
   height: 100px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer i:hover{
+  color: green;
+}
+
+.audio-video{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.audio-video div{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.actions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actions div{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.end{
+  height: 100%;
+  background-color: rgb(128, 128, 128);
+  display: flex;
+
+}
+.end button{
+  padding: 10px 30px;
+  color: red;
 }
